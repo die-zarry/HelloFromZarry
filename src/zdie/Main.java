@@ -8,8 +8,12 @@ public class Main {
         Scanner input = new Scanner(System.in);
         System.out.println("Hello From: ");
         String projectName = input.nextLine();
+        String name = "Zach";
+        System.out.println("Hello " + name);
 
-        System.out.println("Hello, my name is: " + projectName);
+
+        System.out.println("my name is: " + projectName);
+
 
     }
 }
